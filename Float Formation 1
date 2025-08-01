@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scr = new Scanner(System.in);
+        double n = scr.nextDouble();
+        System.out.printf("%.6f\n", n);            
+        System.out.printf("%.4f\n", n);           
+        System.out.printf("%.2f\n", n);            
+        System.out.printf("%d\n", Math.round(n));  
+    }
+}
